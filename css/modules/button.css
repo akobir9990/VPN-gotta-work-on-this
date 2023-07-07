@@ -1,0 +1,23 @@
+.nav__btns {
+  display: flex;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px;
+  font-family: "Rubik-500";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav__btn:hover {
+  color: rgba(245, 56, 85, 1);
+  border: 1px solid rgba(245, 56, 85, 1);
+}

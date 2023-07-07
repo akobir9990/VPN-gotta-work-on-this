@@ -1,0 +1,48 @@
+.product__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 200px;
+  top: 664.54931640625px;
+  left: 150px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  padding: 37px 0;
+  box-shadow: 5px 5px 100px rgba(13, 16, 37, 0.08);
+}
+.product__item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.item__icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(255, 236, 236, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product__item:nth-child(2) {
+  border-left: 2px solid rgba(238, 239, 242, 1);
+  border-right: 2px solid rgba(238, 239, 242, 1);
+}
+.item__number {
+  font-family: "Rubik-700";
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(11, 19, 42, 1);
+}
+.item__type {
+  font-family: "Rubik-400";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(79, 86, 101, 1);
+}

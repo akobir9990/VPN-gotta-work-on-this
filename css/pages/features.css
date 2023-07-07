@@ -1,0 +1,56 @@
+.features__container {
+  display: flex;
+  margin-top: 95px;
+}
+.feature__title {
+  font-family: "Rubik-400";
+  font-size: 35px;
+  color: rgba(11, 19, 42, 1);
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.features__subtitle {
+  font-family: "Rubik-400";
+  font-size: 16px;
+  color: rgba(79, 86, 101, 1);
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+.features__item {
+  font-family: "Rubik-400";
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 26px;
+  list-style-image: url(../../assets/images/list-icon.svg);
+}
+.features__text {
+  padding-left: 150px;
+}
+.features__title {
+  font-family: "Rubik-500";
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(11, 19, 42, 1);
+}
+.features__subtitle {
+  font-family: "Rubik-400";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(79, 86, 101, 1);
+}
+
+.features__item {
+  display: flex;
+  gap: 10px;
+  font-family: "Rubik-400";
+  font-size: 14px;
+}
